@@ -1,0 +1,11 @@
+/* ... desktop styles ... */
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        padding: 15px;
+        /* padding to bottom so last card isn't covered by nav */
+        padding-bottom: 90px;
+    }
+}

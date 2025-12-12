@@ -1,0 +1,61 @@
+.MedsCard {
+    background: linear-gradient(135deg, #00bfa5 0%, #00d4b8 100%);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    max-width: 90%;
+    margin : 1.2em auto;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2), 0px 2px 16px 0 rgba(0, 0, 0, 0.19);
+}
+.MedsCard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.2), 0px 2px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.MedsContent {
+    display: flex;
+    gap: 16px;
+    flex: 1;
+    font-size: 14.5px;
+    font-weight: 450;
+    box-shadow: var(--primary-color);
+}
+
+.MedsImg {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    flex-shrink: 0;
+}
+.MedsBtn {
+    font-family: 'Readex Pro', monospace;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    padding: 2px 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.MedsName{
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px ;
+}
+
+.MedsSchedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+

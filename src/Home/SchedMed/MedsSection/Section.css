@@ -1,0 +1,50 @@
+.MedsHeader {
+    display: flex;
+    justify-content: space-between;
+    font-family: arial, sans-serif;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 1.5em;
+}
+
+.MedsAddBtn {
+    font-family: arial, serif;
+    font-weight: bold;
+    background-color: var(--third-color);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.MedsContainer {
+    border: 2.5px solid var(--third-color);
+    border-radius: 40px;
+    padding: 10px 0px;
+    background: white;
+    margin: 10px 90px 10px 90px;
+}
+
+.MoreBtn {
+    background-color: transparent;
+    font-weight: 600;
+    color: var(--primary-color);
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 2px solid #666666FF;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    
+    .MedsContainer {
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+}
