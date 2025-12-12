@@ -116,11 +116,11 @@ npm start
 ```
 
 ## Special Thanks: 
-I want take the chance to thank you the developers made collab for this project 
- **ELMAHFOUD OULHADJ** <br>
-  **ELMAHFOUD OULHADJ**<br>
-   **MOHAMMED BEN ELMIZI** <br>
-    **MOUSSA LAADMI**><br>
+I want take the chance to thank you the developers made collab for this project <br>
+ **- ELMAHFOUD OULHADJ** <br>
+  **- OMAR ELMORSO OULHADJ**<br>
+   **- MOHAMMED BEN ELMIZI** <br>
+    **- MOUSSA LAADMI** <br>
 
 ## MIT License:
 
