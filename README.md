@@ -1,70 +1,148 @@
-# Getting Started with Create React App
+# Medicine Management WebApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application to help users, especially elderly people, manage their medicines, track doses, and receive reminders for each medication at the right time.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Firebase Setup](#firebase-setup)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Overview
 
-### `npm test`
+This web application helps users manage their medicines efficiently by providing:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Timely reminders for each medicine
+- Tracking of doses taken
+- Easy management of multiple medications
+- Notifications and alerts for missed doses
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- User registration and authentication
+- Add, update, and delete medicines
+- Schedule reminders for medicine intake
+- Responsive UI built with React.js and Bootstrap
+- Firebase backend for authentication, storage, and database
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Frontend:** HTML, CSS, JavaScript, React.js  
+**Backend:** Firebase (Auth, Firestore, Storage)  
+**Database:** Firestore  
+**Hosting:** Firebase Hosting (optional)  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Firebase Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Go to [Firebase Console](https://console.firebase.google.com/) and create a new project.
+2. Enable **Firestore Database**, **Authentication (Email/Password)**, and **Storage**.
+3. Copy your Firebase configuration and replace the placeholders in the project:
 
-## Learn More
+```javascript
+// Replace with your Firebase project config
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY_HERE",
+  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT_ID.appspot.com",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
+};
+````
+4. Save and restart your app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Structure:
+src/
+│
+├── components/         # Reusable components
+│   ├── NewMeds/        # Components for adding new medicines
+│   ├── connexion.js    # Login functionality
+│   ├── delete.js       # Delete medicine logic
+│   ├── firebase.js     # Firebase configuration
+│   ├── label.js        # Label components
+│   ├── login.js        # Login page
+│   ├── modal.js        # Modal dialogs
+│   ├── profile.js      # User profile page
+│   ├── register.js     # Registration page
+│   ├── signInWithGoogle.js
+│   ├── signInWithApple.js
+│   ├── CSS files       # Stylesheets: connexion.css, modal.css, profile.css, label.css, style.css
+│   └── Images          # color2.jpg, user.jpg
+│
+├── pages/              # App pages
+├── Hospital/           # Hospital/doctor related components
+├── Home/               # Home page components
+├── NewMeds/            # New medicine management components
+├── Repay/              # Reimbursement functionality
+├── images/             # Assets and images used in the app
+├── App.js              # Main React component
+├── App.css             # Global app styles
+├── App.test.js         # Test cases for the app
+├── index.css           # Base styles
+└── google.png          # Asset for Google login button
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Setup:
+## Installation
 
-### Code Splitting
+Clone this repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/Elmahfoud-Oul/Medicine_Management_WebApp.git
+```
 
-### Analyzing the Bundle Size
+Navigate to the project folder:
+```bash
+cd Medicine_Management_WebApp
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install dependencies:
+```bash
+npm install
+npm start
+```
 
-### Making a Progressive Web App
+## Special Thanks: 
+I want take the chance to thank you the developers made collab for this project 
+ **ELMAHFOUD OULHADJ**
+  **ELMAHFOUD OULHADJ**
+   **MOHAMMED BEN ELMIZI**
+    **MOUSSA LAADMI**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## MIT License:
 
-### Advanced Configuration
+Copyright (c) 2025 El Mahfoud Oulhadj
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### Deployment
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
