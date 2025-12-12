@@ -117,10 +117,10 @@ npm start
 
 ## Special Thanks: 
 I want take the chance to thank you the developers made collab for this project 
- **ELMAHFOUD OULHADJ**
-  **ELMAHFOUD OULHADJ**
-   **MOHAMMED BEN ELMIZI**
-    **MOUSSA LAADMI**
+ **ELMAHFOUD OULHADJ** <br>
+  **ELMAHFOUD OULHADJ**<br>
+   **MOHAMMED BEN ELMIZI** <br>
+    **MOUSSA LAADMI**><br>
 
 ## MIT License:
 
