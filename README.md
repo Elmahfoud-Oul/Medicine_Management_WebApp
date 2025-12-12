@@ -67,8 +67,7 @@ const firebaseConfig = {
 4. Save and restart your app.
 
 ## Project Structure:
-src/
-│
+```arch:
 ├── components/         # Reusable components
 │   ├── NewMeds/        # Components for adding new medicines
 │   ├── connexion.js    # Login functionality
@@ -95,7 +94,7 @@ src/
 ├── App.test.js         # Test cases for the app
 ├── index.css           # Base styles
 └── google.png          # Asset for Google login button
-
+```
 ## Setup:
 ## Installation
 
