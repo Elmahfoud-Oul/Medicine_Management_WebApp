@@ -118,7 +118,7 @@ npm start
 ## Special Thanks: 
 I want take the chance to thank you the developers made collab for this project <br>
  **- ELMAHFOUD OULHADJ** <br>
-  **- OMAR ELMORSO OULHADJ**<br>
+  **- OMAR ELMORSO**<br>
    **- MOHAMMED BEN ELMIZI** <br>
     **- MOUSSA LAADMI** <br>
 
